@@ -130,7 +130,7 @@ function update(points, labels, lines) {
             .attr('dy', (d) => (d[1] > 100 ? 15 : -5));
         })
     )
-    .attr('transform', (d) => `translate(${d})`);
+            .attr('transform', (d) => `translate(${d})`);
 
   chart
     .selectAll('.u-line')

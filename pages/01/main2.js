@@ -11,7 +11,7 @@ const chart = d3
   .attr('maxWidth', '100%');
 
 const tempLine = chart
-  .append('line')
+      .append('line')
   .attr('class', 'temp')
   .attr('stroke', 'red')
   .attr('stroke-dasharray', 2)
